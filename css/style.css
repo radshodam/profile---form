@@ -170,7 +170,8 @@ body {
 }
 
 .cr-button {
-  border-radius: 0;
+  margin-top: 6px;
+  padding: 10px;
   font-size: 19px;
   font-weight: 300;
   border: none;

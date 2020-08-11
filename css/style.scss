@@ -123,11 +123,13 @@ body {
 }
 
 .cr-button {
-    border-radius: 0;
+    margin-top: 6px;
+    padding: 10px;
     font-size: 19px;
     font-weight: 300;
     border: none;
     background-color: #7297b1 !important;
+    -webkit-transition: ease-in;
     transition: ease-in;
     &:hover {
         background-color: skyblue !important;
