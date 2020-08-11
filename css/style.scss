@@ -1,0 +1,68 @@
+@import "./fonts";
+body {
+    font-family: "IRANSans";
+    direction: rtl;
+}
+
+.header {
+    min-height: 600px;
+}
+
+.bg-custom {
+    background-color: #f1f1f1;
+}
+
+.profile-image {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    direction: ltr;
+    text-align: center;
+    width: 116px;
+    height: 116px;
+    background-color: #999999;
+    border-radius: 9%;
+    border: 2px dotted black;
+    padding: 22px;
+    color: #fcfcfc;
+}
+
+.right {
+    text-align: right;
+    line-height: 39px;
+    font-weight: 300;
+}
+
+.left {
+    text-align: right;
+    line-height: 39px;
+    font-weight: 300;
+}
+
+.form-control-file-custom {
+    display: block;
+    width: 100%;
+    background-color: azure;
+}
+
+.text-upload {
+    line-height: 25px;
+    margin-top: 8px;
+}
+
+.cr-button {
+    border-radius: 0;
+    font-size: 19px;
+    font-weight: 300;
+    border: none;
+    background-color: #7297b1 !important;
+    transition: ease-in;
+    &:hover {
+        background-color: skyblue !important;
+        transition-duration: 0.5s;
+        border: 1px solid white;
+        -webkit-box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.75);
+    }
+}

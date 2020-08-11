@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/eot/IRANSansWeb_Bold.eot");
+  src: url("../fonts/eot/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Bold.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Bold.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/eot/IRANSansWeb_Medium.eot");
+  src: url("../fonts/eot/IRANSansWeb_Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Medium.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Medium.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/eot/IRANSansWeb_Light.eot");
+  src: url("../fonts/eot/IRANSansWeb_Light.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Light.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Light.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/eot/IRANSansWeb_UltraLight.eot");
+  src: url("../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_UltraLight.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_UltraLight.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_UltraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/eot/IRANSansWeb.eot");
+  src: url("../fonts/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb.woff") format("woff"), url("../fonts/ttf/IRANSansWeb.ttf") format("truetype");
+}
+
+body {
+  font-family: "IRANSans";
+  direction: rtl;
+}
+
+.header {
+  min-height: 600px;
+}
+
+.bg-custom {
+  background-color: #f1f1f1;
+}
+
+.profile-image {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  direction: ltr;
+  text-align: center;
+  width: 116px;
+  height: 116px;
+  background-color: #999999;
+  border-radius: 9%;
+  border: 2px dotted black;
+  padding: 22px;
+  color: #fcfcfc;
+}
+
+.right {
+  text-align: right;
+  line-height: 39px;
+  font-weight: 300;
+}
+
+.left {
+  text-align: right;
+  line-height: 39px;
+  font-weight: 300;
+}
+
+.form-control-file-custom {
+  display: block;
+  width: 100%;
+  background-color: azure;
+}
+
+.text-upload {
+  line-height: 25px;
+  margin-top: 8px;
+}
+
+.cr-button {
+  border-radius: 0;
+  font-size: 19px;
+  font-weight: 300;
+  border: none;
+  background-color: #7297b1 !important;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+}
+
+.cr-button:hover {
+  background-color: skyblue !important;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border: 1px solid white;
+  -webkit-box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=style.css.map */
